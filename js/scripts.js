@@ -5,7 +5,7 @@ if (!pdfjsLib || !pdfjsLib.getDocument) {
     console.error("A biblioteca PDF.js não foi carregada corretamente.");
 } else {
     // URL do PDF
-    const url = 'libs/edital.pdf';
+    const url = 'libs/edital-civel.pdf';
 
     let pdfDoc = null;
     let pageNum = 1;
